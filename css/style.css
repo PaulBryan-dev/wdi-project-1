@@ -1,3 +1,42 @@
-body {
-  background: green;
+h1 {
+text-align: center;
+}
+
+h3 {
+  text-align: center; 
+}
+
+li {
+  list-style: none;
+}
+table {
+  margin-top: 150px;
+  margin-left: 5px;
+  /*border:1px solid black;
+  border-radius: 2px;*/
+  width: 210px;
+  line-height: 15px;
+}
+.tableAttr {
+text-align: left;
+}
+.tableVal {
+  text-align: right;
+}
+#mainContainer {
+  text-align: center;
+}
+#playerCard {
+  margin-left: 200px;
+  text-align: center;
+  height: 350px;
+  width: 220px;
+  background-color: blue;
+  color: red;
+  border: solid black 2px;
+  border-radius: 10px;
+}
+#buttonConsole {
+/*  float:right;
+*/  display: inline;
 }
