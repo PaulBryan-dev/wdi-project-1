@@ -2,15 +2,9 @@
 
 
 // ----MVP Pseudocode----
-// Write a function to 
-// Must select randomly who acts first (player or CPU) at start of game
-// Must display an indicator to show whose turn it is to act
-// Attributes shown on players cards must be clickable when it is player's turn to act
-// Must allow player to select an attribute to compare
-// Must compare the value associated with selected attribute with matching one from CPU card
-// Must evaluate who wins that round (trick) based on the higher value of the selected attribute
-// Must take card from loser and add to the bottom of winner's pile each trick
-// Must also move winner's card to bottom of their own deck after each trick
+// Write a function to compare the selected player attribute value with the corresponding CPU one, and return the higher value  ----IF/ELSE STATEMENT----
+// write a function to append both card objects from the current trick to the end of the winner's card object array
+// Write a function to select an attribute and pass its value into the compare function
 // Must choose who acts next based on result of previous turn - if current player wins a trick, they select the attribute again in the next trick
 // Must 
 
@@ -18,41 +12,87 @@
 
 // Include "Three card pick" logic, which allows a player to select an attribute from their last 3 remaining cards
 
+window.onload()
+
+// $(document).ready(function(){
+//   var $playerAttrVal = 
+
+//   var $playerCardCount = $(3);
+//   var $cpuCardCount = $(3);
+//   var $previousRoundWinner =
+//   $("tr").hover(function(){
+//     $(this).css({"color: white"});
+//   });
 
 
-$(document).ready(function(){
+var footballer = [
+{name: "Lionel Messi",       shooting: 94, passing: 91, speed: 89, stamina: 82, dribbling: 96, tackling: 63, weakerFoot: 92, hair: 65, douchebaggery: 7},
+{name: "Diego Costa",        shooting: 78, passing: 76, speed: 67, stamina: 73, dribbling: 56, tackling: 45, weakerFoot: 71, hair: 54, douchebaggery: 91},
+{name: "Stephane Sessegnon", shooting: 79, passing: 76, speed: 81, stamina: 79, dribbling: 75, tackling: 41, weakerFoot: 69, hair: XX, douchebaggery: 45},
+{name: "Bacary Sagna",       shooting: 62, passing: 67, speed: 73, stamina: 82, dribbling: 60, tackling: 78, weakerFoot: XX, hair: 11, douchebaggery: 28},
+{name: "Joey Barton",        shooting: 67, passing: 74, speed: 69, stamina: 73, dribbling: 96, tackling: 79, weakerFoot: XX, hair: 57, douchebaggery: 98},
+{name: "Mesut Ozil",         shooting: 76, passing: 88, speed: 74, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: XX, hair: 68, douchebaggery: 27},
+];
+
+// console.log($footballers)
 
 
-  
-  
 
-  var $fooballers = $[
-      {name: "Lionel Messi",       shooting: 94, passing: 91, speed: 89, stamina: 82, dribbling: 96, tackling: 63, weakerFoot: 8, hair: 4, douchebaggery: 1},
-      {name: "Diego Costa",        shooting: 78, passing: 76, speed: 67, stamina: 73, dribbling: 56, tackling: 45, weakerFoot: 6, hair: 4, douchebaggery: 8},
-      {name: "Stephane Sessegnon", shooting: 79, passing: 76, speed: 81, stamina: 79, dribbling: 75, tackling: 41, weakerFoot: 7, hair: 6, douchebaggery: 5},
-      {name: "Bacary Sagna",       shooting: 62, passing: 67, speed: 73, stamina: 82, dribbling: 60, tackling: 78, weakerFoot: 6, hair: 1, douchebaggery: 2},
-      {name: "Joey Barton",        shooting: 67, passing: 74, speed: 69, stamina: 73, dribbling: 96, tackling: 79, weakerFoot: 3, hair: 5, douchebaggery: 9},
-      {name: "Mesut Ozil",         shooting: 76, passing: 88, speed: 74, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 7, hair: 7, douchebaggery: 3},
-      ];
-
-
-var playerCardCount = $(3);
-var cpuCardCount = $(3);
-$trickWinner = $(function() {
-  if (cpuCardCount === 0 && playercardCount === 6) {
-    alert("You Win!");
-  } else if (playercardCount === 0 && cpuCardCount === 50) {
-    alert("Yoo Lose!");
+// Write a function to compare the selected player attribute value with the corresponding CPU one, and return the higher value  ----IF/ELSE STATEMENT----
+var trickWinner = function(playerAttrVal, cpuAttrVal) {
+  if (playerAttrVal === cpuAttrVal) {
+    alert("It's a tie! Please choose another attribute");
+  } else if (playerAttrVal > cpuAttrVal){
+    return playerAttrVal;
+  } else {
+    return cpuAttrVal;
   }
-});
-
-console.log(trickWinner)
+}
 
 
 
+console.log(trickWinner(88, 67));
+
+playerCard = footballers[Math.floor(Math.random()*footballers.length)]
+cpuCard = footballers[Math.floor(Math.random()*footballers.length)]
+
+console.log(playerCard)
+
+var selectedAttr   =  
+var playerAttrVal  = footballer.map(function(a) {return a.foo;});
+var cpuAttrVal     = footballer.keys( obj ).map(function ( key ) { return obj[key]; });
+Math.cpuAttrVal.apply( null, arr );
+
+// });
 
 
 
 
 
-})
+var footballerTest = {name: "Lionel Messi", shooting: 94, passing: 91, speed: 89, stamina: 82, dribbling: 96, tackling: 63, weakerFoot: 8, hair: 4, douchebaggery: 1};
+
+var arr = Object.keys(footballer).map(function ( key ) { return footballer[key]; });
+var max = Math.max.apply( null, arr );
+
+console.log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
