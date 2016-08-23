@@ -1,13 +1,25 @@
 h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5em;
+  font-style: medium;
   text-align: center;
 }
-
+h5 {
+  margin-top: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+}
 ul {
+  font-family: 'Ubuntu', sans-serif;
   margin: 0;
   padding: 0;
 }
+li{
+  padding-top: 5px;
+}
 
 h3 {
+  font-family: 'Ubuntu', sans-serif;
   text-align: center; 
 }
 table {
@@ -19,7 +31,8 @@ table {
   line-height: 15px;
 }
 img { 
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   height: 200px;
   width: 200px;
 }
@@ -38,10 +51,10 @@ button {
 }
 #gameContainer {
   text-align: center;
-  margin-top: -70px;
+  margin-top: 100px;
 }
 #playerCard {
-  position:relative;
+    position:relative;
   display: inline-block;
   margin-left: 0px;
   text-align: center;
@@ -76,7 +89,7 @@ button {
   border: solid black 2px;
   border-radius: 10px;
 }
- 
+
 #buttonContainer {
   margin: 0 auto;
   display: inline-block;
