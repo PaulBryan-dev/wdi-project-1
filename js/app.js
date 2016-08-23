@@ -87,7 +87,7 @@ var footballers = [
 {name: "David Silva",        img: "http://futhead.cursecdn.com/static/img/16/players/168542.png", shooting: 73, passing: 80, speed: 75, stamina: 71, dribbling: 85, tackling: 30, weakerFoot: 88, douchery: 40},
 {name: "John Stones",        img: "http://futhead.cursecdn.com/static/img/16/players/203574.png", shooting: 35, passing: 60, speed: 73, stamina: 78, dribbling: 55, tackling: 77, weakerFoot: 35, douchery: 45},
 {name: "Sergio Ramos",       img: "http://futhead.cursecdn.com/static/img/16/players/155862.png", shooting: 35, passing: 69, speed: 55, stamina: 64, dribbling: 55, tackling: 82, weakerFoot: 47, douchery: 78},
-{name: "Neymar Jnr",         img: "http://futhead.cursecdn.com/static/img/16/players/155862.png", shooting: 80, passing: 78, speed: 86, stamina: 72, dribbling: 82, tackling: 23, weakerFoot: 80, douchery: 75},
+{name: "Neymar Jnr",         img: "http://futhead.cursecdn.com/static/img/16/players/190871.png", shooting: 80, passing: 78, speed: 86, stamina: 72, dribbling: 82, tackling: 23, weakerFoot: 80, douchery: 75},
 {name: "David Alaba",        img: "http://futhead.cursecdn.com/static/img/16/players/197445.png", shooting: 40, passing: 55, speed: 75, stamina: 88, dribbling: 23, tackling: 87, weakerFoot: 77, douchery: 27},
 {name: "Mario Gotze",        img: "http://futhead.cursecdn.com/static/img/16/players/192318.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 43, douchery: 27},
 {name: "Jordi Alba",         img: "http://futhead.cursecdn.com/static/img/16/players/189332.png", shooting: 70, passing: 75, speed: 65, stamina: 72, dribbling: 73, tackling: 56, weakerFoot: 83, douchery: 27},
@@ -96,18 +96,18 @@ var footballers = [
 {name: "Paulo Dybala",       img: "http://cdn.sofifa.org/16/players/211110.png",                  shooting: 86, passing: 74, speed: 83, stamina: 77, dribbling: 88, tackling: 23, weakerFoot: 68, douchery: 65},
 {name: "Antoine Griezmann",  img: "http://futhead.cursecdn.com/static/img/16/players/194765.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 27},
 {name: "Luis Suarez",        img: "http://futhead.cursecdn.com/static/img/16/players/176580.png", shooting: 87, passing: 77, speed: 74, stamina: 78, dribbling: 87, tackling: 25, weakerFoot: 83, douchery: 94},
-{name: "Eden Hazard",        img: "http://futhead.cursecdn.com/static/img/16/players/183277.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 80},
-{name: "Thomas Muller",      img: "http://futhead.cursecdn.com/stati c/img/16/players/189596.png",shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 27},
+{name: "Eden Hazard",        img: "http://futhead.cursecdn.com/static/img/16/players/183277.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 22, weakerFoot: 77, douchery: 80},
+{name: "Thomas Muller",      img: "http://futhead.cursecdn.com/stati c/img/16/players/189596.png",shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 32, weakerFoot: 77, douchery: 27},
 {name: "Andres Iniesta",     img: "http://futhead.cursecdn.com/static/img/16/players/41.png",     shooting: 76, passing: 88, speed: 77, stamina: 88, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 27},
 {name: "Arturo Vidal",       img: "http://futhead.cursecdn.com/static/img/16/players/181872.png", shooting: 76, passing: 80, speed: 76, stamina: 85, dribbling: 67, tackling: 69, weakerFoot: 87, douchery: 67},
 {name: "Marek Hamsik",       img: "http://futhead.cursecdn.com/static/img/16/players/171877.png", shooting: 67, passing: 89, speed: 70, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 27},
-{name: "Karim Benzema",      img: "http://futhead.cursecdn.com/static/img/16/players/165153.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 27},
-{name: "Marco Reus",         img: "http://futhead.cursecdn.com/static/img/16/players/188350.png", shooting: 50, passing: 76, speed: 86, stamina: 72, dribbling: 82, tackling: 23, weakerFoot: 87, douchery: 67},
+{name: "Karim Benzema",      img: "http://futhead.cursecdn.com/static/img/16/players/165153.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 84},
+{name: "Marco Reus",         img: "http://futhead.cursecdn.com/static/img/16/players/188350.png", shooting: 78, passing: 76, speed: 86, stamina: 72, dribbling: 82, tackling: 23, weakerFoot: 87, douchery: 67},
 {name: "Thiago Silva",       img: "http://futhead.cursecdn.com/static/img/16/players/164240.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 77, douchery: 27},
-{name: "Mats Hummels",       img: "http://futhead.cursecdn.com/static/img/16/players/178603.png", shooting: 34, passing: 57, speed: 66, stamina: 90, dribbling: 82, tackling: 88, weakerFoot: 74, douchery: 27},
+{name: "Mats Hummels",       img: "http://futhead.cursecdn.com/static/img/16/players/178603.png", shooting: 34, passing: 57, speed: 66, stamina: 90, dribbling: 45, tackling: 88, weakerFoot: 74, douchery: 27},
 {name: "Koke",               img: "http://futhead.cursecdn.com/static/img/16/players/193747.png", shooting: 70, passing: 76, speed: 68, stamina: 67, dribbling: 85, tackling: 44, weakerFoot: 84, douchery: 86},
 {name: "Ricardo Rodríguez",  img: "http://futhead.cursecdn.com/static/img/16/players/193352.png", shooting: 35, passing: 54, speed: 66, stamina: 90, dribbling: 82, tackling: 89, weakerFoot: 77, douchery: 27},
-{name: "Raphael Varane",     img: "http://futhead.cursecdn.com/static/img/16/players/201535.png", shooting: 76, passing: 70, speed: 44, stamina: 76, dribbling: 82, tackling: 44, weakerFoot: 75, douchery: 27},
+{name: "Raphael Varane",     img: "http://futhead.cursecdn.com/static/img/16/players/201535.png", shooting: 76, passing: 70, speed: 44, stamina: 76, dribbling: 82, tackling: 83, weakerFoot: 75, douchery: 27},
 {name: "Riyad Mahrez",       img: "http://futhead.cursecdn.com/static/img/16/players/204485.png", shooting: 76, passing: 70, speed: 79, stamina: 72, dribbling: 75, tackling: 34, weakerFoot: 77, douchery: 79},
 {name: "Dimitri Payet",      img: "http://futhead.cursecdn.com/static/img/16/players/177388.png", shooting: 76, passing: 88, speed: 77, stamina: 72, dribbling: 82, tackling: 44, weakerFoot: 86, douchery: 27},
 {name: "Vincent Kompany",    img: "http://futhead.cursecdn.com/static/img/16/players/139720.png", shooting: 45, passing: 67, speed: 69, stamina: 87, dribbling: 35, tackling: 80, weakerFoot: 35, douchery: 40},
@@ -120,8 +120,8 @@ var computerCard;
 function start() {
   pickCards();
 
-  console.log("Player Card", playerCard);
-  console.log("Computer Card", computerCard);
+  // console.log("Player Card", playerCard);
+  // console.log("Computer Card", computerCard);
 }
 
 function pickCards() {
@@ -152,24 +152,31 @@ function appendCards() {
   selectAttr();
 }
 
-function selectAttr() {
+function selectAttr(playerCard) {
   $('#gameContainer').one('click', 'li', function() {
     console.log('click');
     $(this).css("background", "green");
-    var number = parseInt($(this).text().replace(/[^0-9]/g, '')); //this is ragex syntax--
-    console.log(number);
+    var playerAttrVal = parseInt($(this).text().replace(/[^0-9]/g, '')); //this is ragex syntax--    
 
-
-
-    // compareScores(number)
+    console.log(playerAttrVal);
+    
   })
 }
+// var playerSelectAttr = selectAttr(playerCard)        // player picks an attribute he thinks will beat the computer's score for that same attribute
+// var computerSelectAttr = selectAttr(computerCard)    // returns the value on the computer's card for that same attribute
+
+// console.log(playerSelectAttr) 
+// console.log(computerSelectAttr)
 
 
-function compareScores() {
+
+// function compareScores() {
+//   if (playerAttrVal > computerAttrVal)
+
+
   // compare both scores and evaluate a winner
 
-}
+
 
 // $(document).ready(function(){
 //   $("li").mouseover(function(){

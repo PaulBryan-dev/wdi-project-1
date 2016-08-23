@@ -1,3 +1,4 @@
+
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 3.5em;
@@ -5,7 +6,8 @@ h1 {
   text-align: center;
 }
 h5 {
-  margin-top: 5px;
+
+  margin-top: 10px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5em;
 }
@@ -21,6 +23,7 @@ li{
 h3 {
   font-family: 'Ubuntu', sans-serif;
   text-align: center; 
+  font-weight: bold;
 }
 table {
   margin-top: 6px;
@@ -36,13 +39,6 @@ img {
   height: 200px;
   width: 200px;
 }
-button {
-  width: 100px;
-  height: 90px
-  border: solid black 1px;
-  border-radius: 10px;
-  margin-top: 320px;
-}
 .tableAttr {
   text-align: left;
 }
@@ -50,11 +46,15 @@ button {
   text-align: right;
 }
 #gameContainer {
+  display: inline-block;
   text-align: center;
   margin-top: 100px;
+  margin-left: 300px;
+  width: 600px;
 }
 #playerCard {
-    position:relative;
+  position:relative;
+  margin-left: -715px;
   display: inline-block;
   margin-left: 0px;
   text-align: center;
@@ -65,31 +65,26 @@ button {
   border: solid black 2px;
   border-radius: 10px;
 }
-
 #player ul {
   margin: 0 auto;
   padding: 0;
 }
-
 #playerCard ul li {
   width: 125px;
   display: inline-block;
 }
-
-
-#cpuCard {
-  position: relative;
+#computerCard {
+  position:relative;
   display: inline-block;
   margin-left: 0px;
   text-align: center;
-  height: 370px;
-  width: 220px;
-  background-color: blue;
-  color: red;
+  height: 400px;
+  width: 250px;
+  background-color: red;
+  color: white;
   border: solid black 2px;
   border-radius: 10px;
 }
-
 #buttonContainer {
   margin: 0 auto;
   display: inline-block;
