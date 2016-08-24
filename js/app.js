@@ -38,12 +38,12 @@
   }
 
   function appendPlayer(player, id) {
-  $('.'+id+' figure.back').append(
-        "<h5>" + player.name + "</h5>" +
-        "<img src=" + player.img + ">" +
-        "<ul class="+ id +">" +
-        "</ul>"
-    )
+    $('.'+id+' figure.back').append(
+      "<h5>" + player.name + "</h5>" +
+      "<img src=" + player.img + ">" +
+      "<ul class="+ id +">" +
+      "</ul>"
+      )
 
     appendScores(player, id)
   }
@@ -60,9 +60,8 @@
 
   function selectAttr() {
     $('.player').one('click', 'li', function() {
-
-      $(this).css("background", "yellow");
-
+      $(this).css("background", "#96FF51");
+      $(this).css("font-weight", "bolder");
       var attr         = $(this).attr('class');
       var playerMove   = $(this)[0];
       var computerMove = $('.computer figure.back ul li.' + attr)[0]
@@ -74,6 +73,8 @@
     });
   };
 
+
+
   function getWinner(player, computer) {
     var  a = $(player).find("span")[0];
     var  b = $(computer).find("span")[0];
@@ -81,36 +82,31 @@
     var playerScore = parseInt($(a).text());
     var computerScore = parseInt($(b).text());
 
-    console.log(playerScore, computerScore);
+    var playerWinTally = 0
+    var computerWinTally = 0
 
-    if ( playerScore > computerScore ) {
-      // player wins
-    } else if ( playerScore < computerScore) {
-      // computer wins
+    if (playerScore > computerScore) {
+      (playerWinTally++);
+    } else if (playerScore < computerScore) {
+      (computerWinTally++);
     } else {
-      // draw
+      alert("it's a draw!")
     }
-  }
-
-  function evaluateTrickWinner(){
-    if (playerScore === computerScore){
-      alert("It's a draw for that attribute! Please choose another one.");
-    } else if (playerScore > computerScore) {
-      playerWinsTrick();
-    } else {
-      computerWinsTrick();
+    
+    function logScore(playerWinTally) {
+      score += character.score
+      $("#playerScoreBoard").html(playerWinTally);
     }
-  console.log(evaluateTrickWinner)
-  }
-
-  function playerWinsTrick(){
-    for (var i = 0; i < 10; i++){
-
+    
+    function logScore(computerWinTally) {
+      score += character.score
+      $("#computerScoreBoard").html(score);
+     console.log(logscore) ;
     }
   }
 
 
-  var playerSelectAttr = selectAttr(playerCard)       // player picks an attribute he thinks will beat the computer's score for that same attribute
-  var computerSelectAttr = selectAttr(computerCard)   // returns the value on the computer's card for that same attribute
 
- 
+
+
+

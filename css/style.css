@@ -2,17 +2,23 @@ body {
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  background-image: url="http://wallpapercave.com/wp/ofoImjh.jpg"
+  background-image: url("http://old.footballsierraleone.net/wp-content/themes/paula2-1/images/body/background.jpg");
 }
 
 h1 {
   font-size: 3.5em;
-  font-style: medium;
+  font-weight: bold;
+  color: #061711
+  text-shadow: 10px 10px white;
 }
 
-h5 {
-  margin-top: 10px;
+h3 {
   font-size: 1.5em;
+  margin-top: 20px;
+  color:  #061711;
+  font-style: italic;
+  font-weight: lighter;
+  color: #061711;
 }
 
 ul {
@@ -22,10 +28,14 @@ ul {
 
 li{
   padding: 5px 0px 5px 0px;
+
 }
 
-h3 {
+h5 {
   font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  margin-top: 15px
 }
 
 img { 
@@ -35,10 +45,14 @@ img {
   width: 200px;
 }
 
+main {
+  width: 550px;
+  margin: 0 auto;
+}
 .container { 
   display: inline-block;
   width: 250px;
-  height: 380px;
+  height: 400px;
   position: relative;
   perspective: 800px;
 }
@@ -61,42 +75,53 @@ img {
 }
 
 .card .front {
-  background: red;
+  background-image: url("../Images/Screenshot%202016-08-24%2010.07.46.png");
   border: solid black 2px;
   border-radius: 10px;
 
 }
 .card .back {
-  background: blue;
+  background-image: url("../Images/card-back.png");
   transform: rotateY( 180deg );
   border: solid black 2px;
   border-radius: 10px;
+
 }
 
 .card.flipped {
   transform: rotateY( 180deg );
 }
 
-main {
-  width: 550px;
-  margin: 0 auto;
-}
-
 #playerCard, #computerCard {
-  float: left;
+
   display: inline-block;
   width: 250px;
-  height: 380px;
+  height: 400px;
   color: white;
   border: 2px solid black;
   border-radius: 10px;
   text-align: center;
-  margin: 10px;
+  padding: 0px 50px 0px 50px;
 }
 
 .back ul li {
   width: 125px;
   display: inline-block;
+
+}
+
+.active {
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+}
+
+.scoreboards {
+  color: #DCFF51;
+  width: 485px;
+  text-align: center;
+  margin-left: -136px;
 }
 
 #playerCard { 
@@ -119,4 +144,17 @@ main {
 #computerCard ul li {
   width: 125px;
   display: inline-block;
+}
+
+#playerScore {
+  display: inline-block;
+  clear: both;  
+  text-align: left;
+  margin-right: 50px;
+}
+
+#computerScore {
+  display: inline-block;
+  float: right;
+  text-align: left;
 }
