@@ -1,25 +1,28 @@
 body {
   margin: 0 auto;
-  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   background-image: url("http://old.footballsierraleone.net/wp-content/themes/paula2-1/images/body/background.jpg");
 }
 
 h1 {
+  font-family: 'Italian Football', sans-serif;
+  color: white;
   font-size: 3.5em;
-  font-weight: bold;
-  color: #061711
   text-shadow: 10px 10px white;
+  color: #e0eff2;
+  text-shadow: -4px 3px 0 red, -8px 6px 0 black;
 }
 
 h3 {
+  font-family: 'Lato', sans-serif;
   font-size: 1.5em;
   margin-top: 20px;
-  color:  #061711;
-  font-style: italic;
+  color:  white;
   font-weight: lighter;
-  color: #061711;
-}
+  text-shadow: 5px 5px white;
+  color: #e0eff2;
+  text-shadow: -1px .75px 0 red, -2px 1.5px 0 black;
+  }
 
 ul {
   margin: 0;
@@ -28,10 +31,13 @@ ul {
 
 li{
   padding: 5px 0px 5px 0px;
+  font-family: 'Lato', sans-serif;
+
 
 }
 
 h5 {
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 40px;
@@ -75,17 +81,15 @@ main {
 }
 
 .card .front {
-  background-image: url("../Images/Screenshot%202016-08-24%2010.07.46.png");
+  background-image: url("../Images/card-back.png");
   border: solid black 2px;
   border-radius: 10px;
-
 }
 .card .back {
-  background-image: url("../Images/card-back.png");
+  background-image: url("../Images/Screenshot%202016-08-24%2007.15.55.png");
   transform: rotateY( 180deg );
   border: solid black 2px;
   border-radius: 10px;
-
 }
 
 .card.flipped {

@@ -38,7 +38,7 @@
   }
 
   function appendPlayer(player, id) {
-    $('.'+id+' figure.back').append(
+    $('.' + id + ' figure.back').append(
       "<h5>" + player.name + "</h5>" +
       "<img src=" + player.img + ">" +
       "<ul class="+ id +">" +
@@ -87,10 +87,12 @@
 
     if (playerScore > computerScore) {
       (playerWinTally++);
+      alert("Player Wins")
     } else if (playerScore < computerScore) {
-      (computerWinTally++);
+      (computerWinTally++)
+      alert("Computer Wins");
     } else {
-      alert("it's a draw!")
+      // alert("It's a draw!")
     }
     
     function logScore(playerWinTally) {
