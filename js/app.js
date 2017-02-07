@@ -85,15 +85,15 @@ function appendPlayer(player, id) {
       var playerWinTally = 0;
       var computerWinTally = 0;
 
-      if (playerScore > computerScore) {
-        (playerWinTally++);
-        // alert("Player Wins");
-      } else if (playerScore < computerScore) {
-        (computerWinTally++);
-        // alert("Computer Wins");
-      } else {
-        // alert("It's a draw!")
-      }
+      // if (playerScore > computerScore) {
+      //   (playerWinTally++);
+      //   // alert("Player Wins");
+      // } else if (playerScore < computerScore) {
+      //   (computerWinTally++);
+      //   // alert("Computer Wins");
+      // } else {
+      //   // alert("It's a draw!")
+      // }
 
       function logScore(playerWinTally) {
         score += character.score;
